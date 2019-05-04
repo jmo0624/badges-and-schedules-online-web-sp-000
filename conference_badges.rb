@@ -18,4 +18,6 @@ end
 
 printer(attendees)
   batch_badge_creator.each do |value|
-    
+    puts value
+  end
+  
