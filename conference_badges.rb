@@ -8,4 +8,5 @@ batch_badge_creator(attendees)
   end
 end
 
-assign_rooms
+assign_rooms(attendees)
+  
