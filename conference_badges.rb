@@ -21,4 +21,6 @@ printer(attendees)
     puts value
   end
   assign_rooms(attendees).each do |value|
-    
+    puts value
+  end
+end
