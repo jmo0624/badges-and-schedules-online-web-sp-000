@@ -17,7 +17,7 @@ assign_rooms(attendees)
 end
 
 printer(attendees)
-  batch_badge_creator.each do |value|
+  batch_badge_creator.each(attendees) do |value|
     puts value
   end
   assign_rooms(attendees).each do |value|
